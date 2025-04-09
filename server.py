@@ -14,7 +14,7 @@ route_map = {
     'bairros': bairros,
     'cidades': cidades,
     'estados': estados,
-    'users': usuarios
+    'usuarios': usuarios
 }
 
 @app.route('/<resource>/auth', methods=["GET", "POST"])
